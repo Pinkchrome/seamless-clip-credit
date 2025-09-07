@@ -1,7 +1,7 @@
-import VideoEditor from "@/components/VideoEditor";
+import CreatorDashboard from "@/components/CreatorDashboard";
 
 const Index = () => {
-  return <VideoEditor />;
+  return <CreatorDashboard />;
 };
 
 export default Index;
