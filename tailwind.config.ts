@@ -19,9 +19,19 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        
+        /* Video editor specific colors */
+        "editor-bg": "hsl(var(--editor-bg))",
+        "editor-panel": "hsl(var(--editor-panel))",
+        "editor-surface": "hsl(var(--editor-surface))",
+        "timeline-bg": "hsl(var(--timeline-bg))",
+        "timeline-track": "hsl(var(--timeline-track))",
+        "timeline-playhead": "hsl(var(--timeline-playhead))",
+        
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -47,16 +57,20 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
-        },
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-accent": "var(--gradient-accent)",  
+        "gradient-surface": "var(--gradient-surface)",
+      },
+      boxShadow: {
+        "primary": "var(--shadow-primary)",
+        "accent": "var(--shadow-accent)",
+        "panel": "var(--shadow-panel)",
+      },
+      transitionProperty: {
+        "smooth": "var(--transition-smooth)",
+        "fast": "var(--transition-fast)",
       },
       borderRadius: {
         lg: "var(--radius)",
