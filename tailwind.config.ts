@@ -72,6 +72,10 @@ export default {
         "smooth": "var(--transition-smooth)",
         "fast": "var(--transition-fast)",
       },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",

@@ -1,7 +1,7 @@
-import CreatorDashboard from "@/components/CreatorDashboard";
+import PolishedCreatorDashboard from "@/components/PolishedCreatorDashboard";
 
 const Index = () => {
-  return <CreatorDashboard />;
+  return <PolishedCreatorDashboard />;
 };
 
 export default Index;
