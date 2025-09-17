@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Font fallback optimization to reduce layout shift */
+@font-face {
+  font-family: 'Inter Fallback';
+  src: local('system-ui');
+  size-adjust: 100.06%;
+  ascent-override: 90%;
+  descent-override: 22%;
+  line-gap-override: 0%;
+}
+
 /* Professional Video Editor Design System - Dark Theme */
 
 @layer base {
